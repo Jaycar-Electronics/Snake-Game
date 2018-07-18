@@ -27,11 +27,6 @@ Here's the first of our mini projects that you can build from parts in the XC390
 ![](images/Snake_Game.png)
 
 
-## Software Libraries
-|Library | Author
-| --- |--- |
-
-
 ## Assembly
 We started with the matrix by plugging it into row 'B' of the breadboard, so that we can run jumper wires to the front and back of it, then insert the buzzer module to the right- row F works well. The five jumper wires from the matrix to the Uno can be placed next- note that the wires to D4/D5/D6 should all run neatly in parallel. We've run the black GND wire to the – on the buzzer, then from there back to GND on the Uno. Run a jumper wire from S on the buzzer to D3.
 
