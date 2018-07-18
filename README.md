@@ -25,8 +25,7 @@ Here's the first of our mini projects that you can build from parts in the XC390
 
 ### Connection Diagram
 ![](images/Snake_Game.png)
-## Downloads
-* [Source code](https://github.com/duinotech/Snake-Game/archive/master.zip)
+
 
 ## Software Libraries
 |Library | Author
