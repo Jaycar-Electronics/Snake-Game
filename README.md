@@ -24,7 +24,7 @@ Here's the first of our mini projects that you can build from parts in the XC390
 |GND |GND |- | GND|
 
 ### Connection Diagram
-![](../images/Snake Game.png)
+![](images/Snake Game.png)
 ## Downloads
 * [Source code](../downloads/Snake_game.zip)
 
@@ -40,7 +40,7 @@ To give the joystick a bit of flexibility, plug a group of five female-female ju
 
 Here are the breadboard connections:
 
-![](../images/NPI00007a.png)
+![](images/NPI00007a.png)
 
 
 ## Programming
