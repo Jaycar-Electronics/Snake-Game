@@ -29,8 +29,8 @@ char dir=0;                       //1=up, 2=right, 3=down, 4=left
 char slen=0;
 int score=0;
 char gamestate=0;                 //0=idle, 1=play, 2 =game over
-unsigned long tc=1500;             //time between game cycles (~speed/difficulty)
-
+unsigned long tc=80; //menu             //time between game cycles (~speed/difficulty)
+unsigned long ts=250;//snake
 void setup() {
   MAX7219init();
   MAX7219brightness(1);
@@ -45,7 +45,8 @@ void loop() {
     case 2: dogameover(); break;
     case 3: dogameend(); break;
   }
-  delay(tc);
+  
+  delay(gamestate ==1 ? ts : tc);
 }
 
 void dogameend(){
@@ -54,7 +55,7 @@ void dogameend(){
 }
 
 void dogameover(){
-  tc=80;
+  //tc=80;
   static int n=0;
   marquee2[30]=nums[(score/100)%10][0];
   marquee2[31]=nums[(score/100)%10][1];
@@ -129,7 +130,7 @@ void dogame(){
 }
 
 void doidle(){
-  tc=80;
+  //tc=80;
   static int n=0;
   MAX7219sendbm(marquee1+n);
   n++;
@@ -137,7 +138,7 @@ void doidle(){
   if(digitalRead(BUTTON)==LOW){   //change modes,
     gamestate=1;
     MAX7219sendbm(marquee1);        //blank screen
-    tc=200;                         //slow down
+    //tc=200;                         //slow down
     slen=0;                         //reset game
     while(digitalRead(BUTTON)==LOW){}// wait til released
   }
