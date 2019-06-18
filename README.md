@@ -1,13 +1,12 @@
 # Snake Game
-_Project 00007_
 
-Here's the first of our mini projects that you can build from parts in the XC3900 kit. It's a take on the old 'Snake' game that you might have seen on old Nokia phones or even earlier on Atari. There's nothing difficult about this project, but we'd recommend that you've built a few of the designs from the book before attempting it.
+Here's the first of our mini projects that you can build from parts in the KJ7050 kit. It's a take on the old 'Snake' game that you might have seen on old Nokia phones or even earlier on Atari. There's nothing difficult about this project, but we'd recommend that you've built a few of the designs from the book before attempting it.
 
 
 ## Bill of Materials
 | Qty | Code | Description |
 | --- | --- | ---|
-|1 | [XC3900](http://jaycar.com.au/p/XC3900) | All in one arduino learning kit
+|1 | [KJ7050](http://jaycar.com.au/p/KJ7050) | Snake game kit
 
 ## Connection Table
 

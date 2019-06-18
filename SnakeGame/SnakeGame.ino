@@ -36,6 +36,7 @@ void setup() {
   MAX7219brightness(1);
   pinMode(BUTTON,INPUT_PULLUP);
   pinMode(SPEAKER,OUTPUT);
+  tone(SPEAKER, 100,500);
 }
 
 void loop() {
